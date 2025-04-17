@@ -13,7 +13,7 @@ const About = () => {
         <div className="flex min-h-80 h-fit justify-center items-center my-4 gap-x-2 gap-y-2 w-full flex-wrap">
           <div className="w-[600px] flex min-w-72 mx-10 overflow-hidden rounded-3xl h-72 bg-[#EBFBCF]">
             <div className="w-1/2 flex-1 h-full">
-              <div className="flex  w-full h-full flex-col justify-center items-start ml-4 gap-y-5">
+              <div className="flex  w-full h-full flex-col justify-between py-5 items-start ml-4 gap-y-5">
                 <div className="h-14 text-2xl md:text-5xl font-semibold text-black text-start">
                   For Patients
                 </div>
@@ -21,8 +21,8 @@ const About = () => {
                   book instantly, and manage your
                   <br /> appointments—all in one place.
                 </div>
-                <Button className="rounded-3xl h-10 w-24 md:w-32 text-sm font-semibold bg-white text-black">
-                  Read More
+                <Button className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer text-sm font-semibold bg-white text-black">
+                  Register as Patient
                 </Button>
               </div>
             </div>
@@ -45,7 +45,7 @@ const About = () => {
           </div>
           <div className="w-[600px] flex min-w-72 mx-10 overflow-hidden rounded-3xl h-72 bg-[#EBFBCF]">
             <div className="w-1/2 flex-1 h-full">
-              <div className="flex  w-full h-full flex-col justify-center items-start ml-4 gap-y-5">
+              <div className="flex  w-full h-full flex-col justify-between py-5 items-start ml-4 gap-y-5">
                 <div className="h-14 text-2xl md:text-5xl font-semibold text-black text-start">
                   For Doctors
                 </div>
@@ -53,8 +53,8 @@ const About = () => {
                   Get a personalized booking page, streamline your schedule, and
                   focus on what you do best: caring for patients.
                 </div>
-                <Button className="rounded-3xl h-10 w-24 md:w-32 text-sm font-semibold bg-white text-black">
-                  Read More
+                <Button className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer  text-sm font-semibold bg-white text-black">
+                  Register as Doctor
                 </Button>
               </div>
             </div>
