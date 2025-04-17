@@ -7,12 +7,12 @@ const Works = () => {
 
       <div className="flex flex-col md:flex-row items-stretch justify-center w-full gap-10">
         {/* IMAGE COLUMN */}
-        <div className="relative md:w-1/2 w-full">
+        <div className="w-full md:w-1/2">
           <Image
             src="/images/work-doctor.png"
             alt="Doctor"
-            fill
-            className="object-contain"
+            width={400}
+            height={300}
           />
         </div>
 
