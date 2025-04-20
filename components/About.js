@@ -21,7 +21,16 @@ const About = () => {
                   book instantly, and manage your
                   <br /> appointments—all in one place.
                 </div>
-                <Button className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer text-sm font-semibold bg-white text-black">
+                <Button
+                  className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer text-sm font-semibold bg-white text-black"
+                  onClick={() =>
+                    window.open(
+                      "https://bookwithpulse.vercel.app/patients/login",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                >
                   Register as Patient
                 </Button>
               </div>
@@ -53,7 +62,16 @@ const About = () => {
                   Get a personalized booking page, streamline your schedule, and
                   focus on what you do best: caring for patients.
                 </div>
-                <Button className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer  text-sm font-semibold bg-white text-black">
+                <Button
+                  className="rounded-3xl h-10 w-fit hover:bg-gray-300 cursor-pointer  text-sm font-semibold bg-white text-black"
+                  onClick={() =>
+                    window.open(
+                      "https://bookwithpulse.vercel.app/admin/auth/register",
+                      "_blank",
+                      "noopener,noreferrer"
+                    )
+                  }
+                >
                   Register as Doctor
                 </Button>
               </div>
