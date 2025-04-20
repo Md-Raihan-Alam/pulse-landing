@@ -39,7 +39,7 @@ const Hero = () => {
           className="block sm:hidden"
         />
         <Button
-          className="bg-black text-white text-xs sm:text-base md:text-xl font-semibold w-16 sm:w-24 md:w-40 h-9 sm:h-10 md:h-14"
+          className="bg-black text-white text-xs sm:text-base md:text-xl font-semibold cursor-pointer w-16 sm:w-24 md:w-40 h-9 sm:h-10 md:h-14"
           onClick={() =>
             window.open(
               "https://bookwithpulse.vercel.app/admin/auth/register",
@@ -71,7 +71,7 @@ const Hero = () => {
           </p>
           <div className="w-full h-fit flex justify-center my-10 md:justify-start items-center md:items-start">
             <Button
-              className="bg-[#BEF264] text-black w-32 md:w-56 h-10 md:h-16 text-base md:text-lg font-bold flex items-center gap-x-2"
+              className="bg-[#BEF264] cursor-pointer hover:bg-green-300 text-black w-32 md:w-56 h-10 md:h-16 text-base md:text-lg font-bold flex items-center gap-x-2"
               onClick={() =>
                 window.open(
                   "https://bookwithpulse.vercel.app/admin/auth/register",
